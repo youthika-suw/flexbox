@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(225, 225, 225);
+}
+
+.action-bar {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: white;
+    width: 700px;
+    height: 80px;
+    align-items: center;
+    border-radius: 10px;
+    border: 1px solid rgb(195, 195, 195);
+    gap: 16px;
+
+}
+
+button {
+    background-color: rgb(248, 248, 248);
+    font-weight: 700;
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: 1px solid rgb(195, 195, 195);
+}
+
+.primary {
+    background-color: rgb(7, 102, 88);
+    color: white;
+}

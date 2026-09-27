@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: sans-serif;
+
+}
+body {
+        background-color: rgb(241, 243, 243);
+}
+.app-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    border-bottom: 1px solid rgb(189, 189, 189);
+    padding: 15px;
+}
+
+.brand {
+    font-weight: 1000;
+    font-size: 20px;
+    color: rgb(0, 99, 228);
+}
+
+a {
+    text-decoration: none;
+    color: rgb(58, 58, 58);
+    font-size: 14px;
+}
+
+.cta {
+    background-color: #2563eb;
+    padding: 10px 14px;
+    color: white;
+    font-weight: 700;
+    border-radius: 12px;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+   gap: 20px;
+}

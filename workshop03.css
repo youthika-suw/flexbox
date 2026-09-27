@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: rgb(230, 230, 230);
+}
+
+.media {
+    display: flex;
+    align-items: center;
+    border: 1px solid rgb(194, 194, 194);
+    width: 600px;
+    margin: 30px auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgb(249, 249, 249);
+    justify-content: space-between;
+}
+.java {
+    display: flex;
+    align-items: center;
+}
+.icon {
+    color: white;
+    background-color: rgb(126, 58, 237);
+    border-radius: 5px;
+    padding: 15px;
+    font-weight: 700;
+    margin-right: 12px;
+}
+
+.open {
+    color: white;
+    background-color: rgb(0, 0, 0);
+    font-size: 13px;
+    font-weight: 700;
+    padding: 7px 14px;
+    border-radius: 7px;
+}
+
+.name {
+    font-weight: 1000;
+}
+
+.detail {
+    color: grey;
+    font-size: 14px;
+    line-height: 2;
+}

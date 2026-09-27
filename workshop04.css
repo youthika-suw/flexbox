@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body {
+    background-color: #f7f7f7
+}
+
+.card-list {
+    display: flex;
+    margin: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    border: 1px solid rgb(211, 211, 211);
+    border-radius: 10px;
+    margin: 10px;
+    background-color: white;
+    width: 250px;
+    padding: 10px;
+}
+
+.subject {
+    font-size: 12px;
+    font-weight: 1000;
+    color: green;
+    margin-left: 20px;
+}
+
+.header {
+    margin-left: 20px;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.detail {
+    margin-left: 20px;
+    color: rgb(101, 101, 101);
+}
